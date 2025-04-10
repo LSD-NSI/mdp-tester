@@ -10,7 +10,7 @@ function verifierMotDePasse() {
     
     var chiffre = /\d/.test(motDePasse);
     
-    var caractere_special = /[@$!%*?&]/.test(motDePasse);
+    var caractere_special = /[.@$!%*?&]/.test(motDePasse);
 
     var force = 0;
     if (longueur) force += 1;
